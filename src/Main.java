@@ -8,9 +8,9 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
 
-        String url = "jdbc:postgresql://localhost:5432/Library";
+        String url = ""; //dataBase url
         String user = "postgres";
-        String pass = "Ravuri@123";
+        String pass = ""; // bataBase pass 
 
         Class.forName("org.postgresql.Driver");
 
